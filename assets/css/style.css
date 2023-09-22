@@ -7,7 +7,7 @@
 body {
     background-color: #d9dcd6;
 }
-
+/*updated to semantic element for all header styling*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -68,13 +68,13 @@ p {
     float: right;
     margin-left: 25px;
 }
-
+/*updated to main to be in-line with semantic element*/
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/*updated to aside to be in-line with semantic element*/
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -85,7 +85,7 @@ aside {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/*combined all class content that have same styling details*/
 .benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
@@ -126,7 +126,7 @@ footer {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
+/*updated to footer to be in-line with semantic element*/
 footer h2 {
     font-size: 20px;
 }
